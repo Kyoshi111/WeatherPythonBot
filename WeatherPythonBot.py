@@ -1,8 +1,8 @@
 import telebot
 import pyowm
 
-owm = pyowm.OWM('6d00d1d4e704068d70191bad2673e0cc', language = 'ru')
-bot = telebot.TeleBot("986734620:AAGo1xhJ2OKjs-xYTqSGkfiR_fsMMx9k8aY")
+owm = pyowm.OWM('', language = 'ru')
+bot = telebot.TeleBot("")
 
 @bot.message_handler(content_types=['text'])
 def send_weather(message):
